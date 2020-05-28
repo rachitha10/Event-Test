@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+
+<div><div>
+   <meta name="layout-editable" type="xrm/designer/setting" value="marketing-designer-layout-editable">
+   <meta name="layout-max-width" label="Layout max width" type="xrm/designer/setting" value="600px" datatype="text">
+   <form style="null" data-container="true">
+      <style>
+          div[data-editorblocktype=Field-radioButtons] {
+            width:25%;
+          }
+
+          div[data-editorblocktype=Field-radioButtons] input {
+            width: auto;
+            height: auto;
+            margin-bottom: 3px;
+            float: right;
+          }
+
+          div[data-editorblocktype=Field-checkboxList] input,
+          div[data-editorblocktype=Field-checkbox] input,
+          div[data-editorblocktype=SubscriptionListBlock] input {
+            width: auto;
+            height: auto;
+            margin-bottom: 3px;
+            margin-right: 8px;
+            float: left;
+          }
+
+          div[data-editorblocktype=Field-checkboxList] span.lp-checkboxListItem,
+          div[data-editorblocktype=Field-radioButtons] span.lp-radioButton {
+            /* This rule is needed to style all radio button fields. For product constraints each option is defined as input and label wrapped into a span*/
+            display: block;
+            margin: 2px;
+          }
+         div[data-container-width="100"],
+         div[data-container-width="50"] {
+              display: block;
+              min-height: 70px; 
+              min-width: 20px;
+              margin: 10px 1.5%; 
+              float: left; 
+              word-wrap: break-word; word-break: break-word;
+              width: 100%;
+              -webkit-box-sizing: border-box;
+              -moz-box-sizing: border-box;
+               box-sizing: border-box;
+         }
+       @media screen and (min-width: 1200px) {
+         div[data-container-width="50"] {
+            display: block; 
+            min-height: 70px; 
+            min-width: 15px;
+            width: 47%; 
+            margin: 1.5%; 
+            float: left; 
+            word-wrap: break-word; word-break: break-word;
+            }
+            div[data-container-width="100"] {
+            display: block; 
+            min-height: 70px; 
+            min-width: 15px;
+            width: 97%; 
+            margin: 1.5%; 
+            float: left; 
+            word-wrap: break-word; word-break: break-word;
+            }
+       }
+         div[data-editorblocktype="Text"] h1,h2 {
+         text-align: left;
+         }
+         div[data-sectionFirstChild="true"] {
+         display: block; 
+         width: 100%;
+         }
+         [data-layout="true"] {
+         margin: 0 auto;
+         max-width: /* @layout-max-width */
+         600px /* @layout-max-width */
+         ;
+         }
+         input {
+         border-radius: 3px;
+         border: 1px solid #333333;
+         height: 35px;
+         margin-bottom: 8px;
+         margin-top: 8px;
+         text-indent: 10px;
+         width: 100%;
+         }
+         textarea {
+         border-radius: 3px;
+         border: 1px solid #333333;
+         margin-bottom: 8px;
+         margin-top: 8px;
+         height: 120px;
+         overflow: auto;
+         width: 100%;
+        }
+         label {
+         font-weight: normal;
+         margin: 0px;
+         font-size:18px;
+         font-weight: bold;
+         }
+         div[data-editorblocktype="SubmitButtonBlock"]  button {
+         font-size:18px;
+         border-radius: 3px;
+         height: 40px;
+         overflow: hidden;
+         text-overflow: ellipsis;
+         vertical-align: bottom;
+         margin-top: 12px;
+         color: white;
+         background-color: #0078D4; 
+         border: 1px solid #0078D4;
+         width: 100%;
+         padding: 0;
+         }
+         form{
+         font-family: Segoe UI;
+         }
+         div[data-editorblocktype="SubmitButtonBlock"] 
+         {
+         margin: 0 auto;
+         }
+         .columnContainer h2
+         {
+         font-size: 16px;
+         }
+         ::-webkit-input-placeholder,
+         ::-moz-placeholder,
+         ::-ms-input-placeholder
+         ::placeholder
+         {
+         font-size: 16px;
+         }
+         .columnContainer h1{
+         font-size:26px;
+         }
+      </style>
+      <div data-layout="true">
+         <div data-section="true">
+            <div style="display: block;">
+               <div class="columnContainer" style="width: 582px;display: block;flex-direction: column;" data-container="true" data-container-width="100"><div data-editorblocktype="Field-checkbox"> <div class="marketing-field">
+                        <div class="lp-form-field" data-required-field="false"><input name="bddafd65-310b-4d51-91b4-d251a5002add" title="" class="lp-form-fieldInput" id="bddafd65-310b-4d51-91b4-d251a5002add" type="checkbox" placeholder=""><label title="" class="lp-ellipsis" for="bddafd65-310b-4d51-91b4-d251a5002add">Do not email</label></div>
+                    </div></div>
+                  <div data-editorblocktype="Text">
+                     <h1>Event registration</h1>
+                  </div>
+                  <div data-editorblocktype="Text">
+                     <h2>Register right now while places are available</h2>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div data-section="true">
+            <div style="display: block;" data-editorblocktype="Text">
+               <div class="columnContainer" style="width: 282px;display: block;flex-direction: column;" data-container="true" data-container-width="50">
+                  <div data-editorblocktype="Field-text">
+                     <div class="marketing-field">
+                        <div class="lp-form-field">
+                            <label title="" class="lp-ellipsis" for="3f746946-34b4-442c-a677-e232cdd2bc40">First Name</label>
+                            <span class="lp-required" style="color: rgb(255, 0, 0);">*</span>
+                            <input name="3f746946-34b4-442c-a677-e232cdd2bc40" title="" class="lp-form-fieldInput" id="3f746946-34b4-442c-a677-e232cdd2bc40" style="width:100%" required="required" type="text" placeholder="First">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="columnContainer" style="width: 282px;display: block;flex-direction: column;" data-container="true" data-container-width="50">
+                  <div data-editorblocktype="Field-text">
+                     <div class="marketing-field">
+                        <div class="lp-form-field">
+                            <label title="" class="lp-ellipsis" for="e1dfc514-f301-4cb2-855a-4c8fa8331207">Last Name</label>
+                            <span class="lp-required" style="color: rgb(255, 0, 0)">*</span>
+                            <input name="e1dfc514-f301-4cb2-855a-4c8fa8331207" title="" class="lp-form-fieldInput" id="e1dfc514-f301-4cb2-855a-4c8fa8331207" style="width:100%" required="required" type="text" placeholder="Last">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div data-section="true">
+            <div style="display: block;" data-editorblocktype="Text">
+               <div class="columnContainer" style="width: 282px;display: block;flex-direction: column;" data-container="true" data-container-width="50">
+                  <div data-editorblocktype="Field-email">
+                     <div class="marketing-field">
+                        <div class="lp-form-field">
+                            <label title="" class="lp-ellipsis" for="7f685ebb-7c54-4cff-a1bc-772562d25c38">E-mail</label>
+                            <span class="lp-required" style="color: rgb(255, 0, 0)">*</span>
+                            <input name="7f685ebb-7c54-4cff-a1bc-772562d25c38" title="" class="lp-form-fieldInput" id="7f685ebb-7c54-4cff-a1bc-772562d25c38" style="width:100%" required="required" type="email" placeholder="Email">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="columnContainer" style="width: 282px;display: block;flex-direction: column;" data-container="true" data-container-width="50">
+                  <div data-editorblocktype="Field-phone">
+                     <div class="marketing-field">
+                        <div class="lp-form-field">
+                            <label title="" class="lp-ellipsis" for="ac6a065d-364e-40d6-9a19-d9bf1ed4aa3e">Phone</label>
+                            <input name="ac6a065d-364e-40d6-9a19-d9bf1ed4aa3e" title="" class="lp-form-fieldInput" id="ac6a065d-364e-40d6-9a19-d9bf1ed4aa3e" style="width:100%" type="tel" placeholder="Phone">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div data-section="true">
+            <div style="display: block;" data-editorblocktype="Text">
+               <div class="columnContainer" style="width: 582px;display: block;flex-direction: column;" data-container="true" data-container-width="100">
+                  <div data-editorblocktype="Field-text">
+                     <div class="marketing-field">
+                        <div class="lp-form-field">
+                            <label title="" class="lp-ellipsis" for="fc0308ab-609e-45c8-9f5e-9eca3511dc39">City</label>
+                            <input name="fc0308ab-609e-45c8-9f5e-9eca3511dc39" title="" class="lp-form-fieldInput" id="fc0308ab-609e-45c8-9f5e-9eca3511dc39" style="width:100%" type="text" placeholder="City">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div style="clear:both;"></div>
+         <div data-section="true">
+            <div style="display: block;">
+               <div class="columnContainer" style="width: 282px;display: block;flex-direction: column;" data-container="true" data-container-width="50">
+                  <div data-editorblocktype="Field-text">
+                     <div class="marketing-field">
+                        <div class="lp-form-field">
+                            <label title="" class="lp-ellipsis" for="d9d1e055-d1c2-4bb3-a42f-faf6762e0acc">Country</label>
+                            <input name="d9d1e055-d1c2-4bb3-a42f-faf6762e0acc" title="" class="lp-form-fieldInput" id="d9d1e055-d1c2-4bb3-a42f-faf6762e0acc" style="width:100%" type="text" placeholder="Country">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="columnContainer" style="width: 282px;display: block;flex-direction: column;" data-container="true" data-container-width="50">
+                  <div data-editorblocktype="Field-text">
+                     <div class="marketing-field">
+                        <div class="lp-form-field">
+                            <label title="" class="lp-ellipsis" for="eae4766c-f91a-4648-afb1-259b97e89cab">Zip Code</label>
+                            <input name="eae4766c-f91a-4648-afb1-259b97e89cab" title="" class="lp-form-fieldInput" id="eae4766c-f91a-4648-afb1-259b97e89cab" style="width:100%" type="text" placeholder="Zip Code">
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div style="padding: 10px;" data-section="true"><div style="display: block;&#10;            width: 100%;&#10;        ;">
+                        <div style="clear:both;"></div>
+                        <div class="columnContainer" style="display: block;&#10;            min-height: 70px;&#10;            min-width: 20px;width: 544px;flex-direction: column;&#10;            padding: 10px;&#10;            float: left;&#10;            &#10;            word-wrap: break-word; word-break: break-word;&#10;        ;" data-container="true" data-container-width="100">
+                        <div data-editorblocktype="Field-radioButtons"><div class="marketing-customfield">
+<div class="lp-form-field" data-required-field="true"><label class="lp-ellipsis" for="cf939822-fe9b-ea11-a812-000d3aacb5df">Are you attending the Conference?</label><span class="lp-required" style="color: rgb(255, 0, 0);">*</span><span><span class="lp-radioButton"><input name="cf939822-fe9b-ea11-a812-000d3aacb5df" class="lp-form-fieldInput" id="cf939822-fe9b-ea11-a812-000d3aacb5df_Yes" required="" type="radio" checked="checked" placeholder="" value="Yes"><label class="lp-ellipsis" for="cf939822-fe9b-ea11-a812-000d3aacb5df_Yes">Yes</label></span><span class="lp-radioButton"><input name="cf939822-fe9b-ea11-a812-000d3aacb5df" class="lp-form-fieldInput" id="cf939822-fe9b-ea11-a812-000d3aacb5df_No" type="radio" placeholder="" value="No"><label class="lp-ellipsis" for="cf939822-fe9b-ea11-a812-000d3aacb5df_No">No</label></span></span></div>
+</div>
+</div><div data-editorblocktype="Field-text"><div class="marketing-customfield">
+<div class="lp-form-field" data-required-field="false"><label class="lp-ellipsis" for="386ecb0d-179c-ea11-a812-000d3aacb5df">What is your business interest?</label><input name="386ecb0d-179c-ea11-a812-000d3aacb5df" class="lp-form-fieldInput" id="386ecb0d-179c-ea11-a812-000d3aacb5df" type="text" placeholder=""></div>
+</div>
+</div></div>
+                        <div style="clear:both;"></div>
+                    </div></div><div data-section="true">
+            <div style="display: block;" data-editorblocktype="Text">
+               <div style="width: 582px;display: block;flex-direction: column;" data-container="true" data-container-width="100">
+                  <div data-editorblocktype="SubmitButtonBlock">
+                     <button name="submit" class="lp-form-button lp-form-fieldInput" type="submit">Submit</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </form>
+</div></div>
+
+</body>
+</html>
